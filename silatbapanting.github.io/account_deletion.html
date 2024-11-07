@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SILAT BAPANTING Account Deletion</title>
+</head>
+<body>
+	<form >
+		<h1>SILAT BAPANTING Account Deletion Form</h1>
+		<p>Please enter your NIK/ID Number associated with your data for a request for deletion.</p>
+			<input type="text" name="NIK" id="NIK" placeholder="Eg: 123456781234" required>
+			<input type="submit" value="Submit">
+	</form>
+	<script>
+		const form = document.querySelector('form')
+
+		form.addEventListener('submit', (e) => {
+			e.preventDefault();
+			const formData = new FormData(form);
+			open(`https://wa.me/6285248684595?text=${encodeURIComponent(`Saya ingin menghapus data dengan NIK ${formData.get('NIK')}`)}`);
+		})
+	</script>
+</body>
+</html>
