@@ -3,7 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "6fef22e4bd02029130012a1f00bdd79b",
+const RESOURCES = {"apple-touch-icon.png": "6e020dc09850e68098166af26f504f33",
+"assets/AssetManifest.bin": "6fef22e4bd02029130012a1f00bdd79b",
 "assets/AssetManifest.bin.json": "913c54bf246816bf6c45c4c34fb1d7fa",
 "assets/AssetManifest.json": "3ab13421cff782a7c654b5131c23c8b1",
 "assets/assets/audios/diabetes.mp3": "39c244ba1325b5fe0a34191ae9ca8345",
@@ -106,17 +107,17 @@ const RESOURCES = {"assets/AssetManifest.bin": "6fef22e4bd02029130012a1f00bdd79b
 "canvaskit/skwasm.js.symbols": "c3c05bd50bdf59da8626bbe446ce65a3",
 "canvaskit/skwasm.wasm": "4051bfc27ba29bf420d17aa0c3a98bce",
 "canvaskit/skwasm.worker.js": "bfb704a6c714a75da9ef320991e88b03",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"favicon.ico": "1c3d8b13fe9383f7598a3b447bfd10f2",
 "flutter.js": "383e55f7f3cce5be08fcf1f3881f585c",
-"flutter_bootstrap.js": "4d2f5f48f9c0f4b26b45fff4dd3b09ed",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
-"icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "bb4b62bfa21eb3dd0a12b261e2ef50aa",
-"/": "bb4b62bfa21eb3dd0a12b261e2ef50aa",
+"flutter_bootstrap.js": "292c2f6e8e646521469c3cc8ad781ab4",
+"icons/apple-touch-icon.png": "6e020dc09850e68098166af26f504f33",
+"icons/icon-192-maskable.png": "7fe2473d67348b153ee1add019952c33",
+"icons/icon-512-maskable.png": "e71b36c782a656e4e87015c2f1127589",
+"index.html": "54ecb6e540ce57837cb9ede4306e830f",
+"/": "54ecb6e540ce57837cb9ede4306e830f",
 "main.dart.js": "c624f726bd7e65dd6556f371fdfefd10",
 "manifest.json": "97d6eee781803cc070e38a92ce60b4ea",
+"README.txt": "d3df3991a31f034bfa98afdfa3c622e1",
 "version.json": "2fcf1fbf413af478b2f267f9604937d7"};
 // The application shell files that are downloaded before a service worker can
 // start.
